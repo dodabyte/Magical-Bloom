@@ -1,0 +1,52 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 10,
+			"bones": {
+				"crystal": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"10.0": {
+							"vector": [0, 360, -360],
+							"easing": "linear"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.5": {
+							"vector": [0, 0.6, 0.3],
+							"easing": "easeInOutSine"
+						},
+						"5.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInOutSine"
+						},
+						"7.5": {
+							"vector": [0, 0.6, 0.3],
+							"easing": "easeInOutSine"
+						},
+						"10.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInOutSine"
+						}
+					}
+				},
+				"staff": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [0, 0, 0.01]
+				}
+			}
+		}
+	}
+}

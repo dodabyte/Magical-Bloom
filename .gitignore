@@ -1,0 +1,9 @@
+/.gradle/
+/.settings/
+.idea/
+build/
+target/
+references/
+*.iml
+snapshot_classes
+run/

@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"facing=up":    { "model": "magicalbloom:block/crystal" },
+		"facing=down":  { "model": "magicalbloom:block/crystal", "x": 180 },
+		"facing=south": { "model": "magicalbloom:block/crystal", "x": 90, "y": 180 },
+		"facing=west":  { "model": "magicalbloom:block/crystal", "x": 90, "y": 270 },
+		"facing=north": { "model": "magicalbloom:block/crystal", "x": 90 },
+		"facing=east":  { "model": "magicalbloom:block/crystal", "x": 90, "y": 90 }
+	}
+}
